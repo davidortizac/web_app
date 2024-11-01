@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Color - </title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        const serverColor = "${SERVER_COLOR}"; // Usar variable de entorno en lugar de valor fijo
+        document.addEventListener("DOMContentLoaded", () => {
+            document.title = `Server Color - ${serverColor}`;
+            document.documentElement.style.setProperty('--server-color', serverColor);
+        });
+    </script>
+</head>
+<body>
+    <div class="panel" id="panel1">
+        <div class="side-container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="center">Logo</div>
+        <div class="side-container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <div class="panel" id="panel2">
+        <div class="side-container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="center">Logo</div>
+        <div class="side-container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <div class="panel" id="panel3">
+        <div class="side-container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="center">Logo</div>
+        <div class="side-container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <div class="panel" id="panel4">
+        <div class="side-container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="center">Logo</div>
+        <div class="side-container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+</body>
+</html>
